@@ -49,6 +49,10 @@
 {
     self.contentContainerView.transform = CGAffineTransformMakeRotation(self.viewRotation);
     self.tableView.clipsToBounds = NO;
+    self.headerView.layer.shadowOffset = CGSizeMake(0, 3);
+    self.headerView.layer.shadowRadius = 5;
+    self.headerView.layer.shadowColor = [[UIColor blackColor] CGColor];
+    self.headerView.layer.shadowOpacity = .5;
 //    self.tableView.layer.borderColor = [[UIColor greenColor] CGColor];
 //    self.tableView.layer.borderWidth = 2.0f;
 //    self.headerView.transform = CGAffineTransformMakeRotation(self.viewRotation);

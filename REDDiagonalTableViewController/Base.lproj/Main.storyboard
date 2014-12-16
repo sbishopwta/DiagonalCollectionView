@@ -93,6 +93,11 @@
                                             <constraint firstAttribute="bottom" secondItem="vYG-pz-QQe" secondAttribute="bottom" constant="5" id="EXV-1g-udm"/>
                                             <constraint firstAttribute="centerX" secondItem="vYG-pz-QQe" secondAttribute="centerX" id="wHY-fu-G5d"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="wHY-fu-G5d"/>
+                                            </mask>
+                                        </variation>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -100,6 +105,7 @@
                                     <constraint firstAttribute="trailing" secondItem="Zg8-ad-b8X" secondAttribute="trailing" id="HaM-LN-JbI"/>
                                     <constraint firstItem="Zg8-ad-b8X" firstAttribute="top" secondItem="f4I-Cq-nUb" secondAttribute="top" id="JqX-oW-JEA"/>
                                     <constraint firstItem="9X6-ah-u5b" firstAttribute="width" secondItem="Zg8-ad-b8X" secondAttribute="width" id="Ncf-uW-4et"/>
+                                    <constraint firstItem="vYG-pz-QQe" firstAttribute="centerX" secondItem="Zg8-ad-b8X" secondAttribute="centerX" constant="-0.5" id="S4k-bk-VK5"/>
                                     <constraint firstItem="Zg8-ad-b8X" firstAttribute="leading" secondItem="f4I-Cq-nUb" secondAttribute="leading" id="cbP-3l-xc8"/>
                                     <constraint firstAttribute="bottom" secondItem="Zg8-ad-b8X" secondAttribute="bottom" constant="400" id="nFc-F0-2Gy"/>
                                     <constraint firstItem="9X6-ah-u5b" firstAttribute="leading" secondItem="f4I-Cq-nUb" secondAttribute="leading" id="tRm-5R-M2K"/>
@@ -126,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dgj-xD-FHS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="90" y="530"/>
+            <point key="canvasLocation" x="158" y="541"/>
         </scene>
     </scenes>
 </document>
