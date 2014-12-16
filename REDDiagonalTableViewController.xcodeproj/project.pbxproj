@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD447F981A33682E00EF51DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD447F971A33682E00EF51DA /* main.m */; };
+		FD447F9B1A33682E00EF51DA /* REDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD447F9A1A33682E00EF51DA /* REDAppDelegate.m */; };
+		FD447FA11A33682E00EF51DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD447F9F1A33682E00EF51DA /* Main.storyboard */; };
+		FD447FA31A33682E00EF51DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD447FA21A33682E00EF51DA /* Images.xcassets */; };
+		FD447FA61A33682E00EF51DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD447FA41A33682E00EF51DA /* LaunchScreen.xib */; };
+		FD447FB21A33682E00EF51DA /* REDDiagonalTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD447FB11A33682E00EF51DA /* REDDiagonalTableViewControllerTests.m */; };
+		FD447FBE1A336B6400EF51DA /* REDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD447FBC1A336B6400EF51DA /* REDTableViewCell.m */; };
+		FD447FBF1A336B6400EF51DA /* REDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD447FBD1A336B6400EF51DA /* REDTableViewCell.xib */; };
+		FD447FC21A3373E500EF51DA /* REDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD447FC11A3373E500EF51DA /* REDTableViewController.m */; };
+		FD447FC51A337E4E00EF51DA /* REDTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD447FC41A337E4E00EF51DA /* REDTableHeaderView.m */; };
+		FD447FC71A337E5A00EF51DA /* REDTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD447FC61A337E5A00EF51DA /* REDTableHeaderView.xib */; };
+		FD7E32E81A37CC2B006D401F /* REDLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7E32E71A37CC2B006D401F /* REDLaunchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD447FAC1A33682E00EF51DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD447F8A1A33682E00EF51DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD447F911A33682E00EF51DA;
+			remoteInfo = REDDiagonalTableViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD447F921A33682E00EF51DA /* REDDiagonalTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REDDiagonalTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD447F961A33682E00EF51DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD447F971A33682E00EF51DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD447F991A33682E00EF51DA /* REDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REDAppDelegate.h; sourceTree = "<group>"; };
+		FD447F9A1A33682E00EF51DA /* REDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REDAppDelegate.m; sourceTree = "<group>"; };
+		FD447FA01A33682E00EF51DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD447FA21A33682E00EF51DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD447FA51A33682E00EF51DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD447FAB1A33682E00EF51DA /* REDDiagonalTableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = REDDiagonalTableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD447FB01A33682E00EF51DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD447FB11A33682E00EF51DA /* REDDiagonalTableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REDDiagonalTableViewControllerTests.m; sourceTree = "<group>"; };
+		FD447FBB1A336B6400EF51DA /* REDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = REDTableViewCell.h; path = UI/REDTableViewCell.h; sourceTree = "<group>"; };
+		FD447FBC1A336B6400EF51DA /* REDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = REDTableViewCell.m; path = UI/REDTableViewCell.m; sourceTree = "<group>"; };
+		FD447FBD1A336B6400EF51DA /* REDTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = REDTableViewCell.xib; path = UI/REDTableViewCell.xib; sourceTree = "<group>"; };
+		FD447FC01A3373E500EF51DA /* REDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = REDTableViewController.h; path = UI/REDTableViewController.h; sourceTree = "<group>"; };
+		FD447FC11A3373E500EF51DA /* REDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = REDTableViewController.m; path = UI/REDTableViewController.m; sourceTree = "<group>"; };
+		FD447FC31A337E4E00EF51DA /* REDTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = REDTableHeaderView.h; path = UI/REDTableHeaderView.h; sourceTree = "<group>"; };
+		FD447FC41A337E4E00EF51DA /* REDTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = REDTableHeaderView.m; path = UI/REDTableHeaderView.m; sourceTree = "<group>"; };
+		FD447FC61A337E5A00EF51DA /* REDTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDTableHeaderView.xib; sourceTree = "<group>"; };
+		FD7E32E61A37CC2B006D401F /* REDLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDLaunchViewController.h; sourceTree = "<group>"; };
+		FD7E32E71A37CC2B006D401F /* REDLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDLaunchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD447F8F1A33682E00EF51DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD447FA81A33682E00EF51DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD447F891A33682E00EF51DA = {
+			isa = PBXGroup;
+			children = (
+				FD447F941A33682E00EF51DA /* REDDiagonalTableViewController */,
+				FD447FAE1A33682E00EF51DA /* REDDiagonalTableViewControllerTests */,
+				FD447F931A33682E00EF51DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD447F931A33682E00EF51DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD447F921A33682E00EF51DA /* REDDiagonalTableViewController.app */,
+				FD447FAB1A33682E00EF51DA /* REDDiagonalTableViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD447F941A33682E00EF51DA /* REDDiagonalTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E32E51A37CBFE006D401F /* LaunchView */,
+				FD447F991A33682E00EF51DA /* REDAppDelegate.h */,
+				FD447F9A1A33682E00EF51DA /* REDAppDelegate.m */,
+				FD447F9F1A33682E00EF51DA /* Main.storyboard */,
+				FD447FC01A3373E500EF51DA /* REDTableViewController.h */,
+				FD447FC11A3373E500EF51DA /* REDTableViewController.m */,
+				FD447FBB1A336B6400EF51DA /* REDTableViewCell.h */,
+				FD447FBC1A336B6400EF51DA /* REDTableViewCell.m */,
+				FD447FBD1A336B6400EF51DA /* REDTableViewCell.xib */,
+				FD447FC31A337E4E00EF51DA /* REDTableHeaderView.h */,
+				FD447FC41A337E4E00EF51DA /* REDTableHeaderView.m */,
+				FD447FC61A337E5A00EF51DA /* REDTableHeaderView.xib */,
+				FD447FA21A33682E00EF51DA /* Images.xcassets */,
+				FD447FA41A33682E00EF51DA /* LaunchScreen.xib */,
+				FD447F951A33682E00EF51DA /* Supporting Files */,
+			);
+			path = REDDiagonalTableViewController;
+			sourceTree = "<group>";
+		};
+		FD447F951A33682E00EF51DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD447F961A33682E00EF51DA /* Info.plist */,
+				FD447F971A33682E00EF51DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD447FAE1A33682E00EF51DA /* REDDiagonalTableViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD447FB11A33682E00EF51DA /* REDDiagonalTableViewControllerTests.m */,
+				FD447FAF1A33682E00EF51DA /* Supporting Files */,
+			);
+			path = REDDiagonalTableViewControllerTests;
+			sourceTree = "<group>";
+		};
+		FD447FAF1A33682E00EF51DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD447FB01A33682E00EF51DA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD7E32E51A37CBFE006D401F /* LaunchView */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E32E61A37CC2B006D401F /* REDLaunchViewController.h */,
+				FD7E32E71A37CC2B006D401F /* REDLaunchViewController.m */,
+			);
+			name = LaunchView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD447F911A33682E00EF51DA /* REDDiagonalTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD447FB51A33682E00EF51DA /* Build configuration list for PBXNativeTarget "REDDiagonalTableViewController" */;
+			buildPhases = (
+				FD447F8E1A33682E00EF51DA /* Sources */,
+				FD447F8F1A33682E00EF51DA /* Frameworks */,
+				FD447F901A33682E00EF51DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REDDiagonalTableViewController;
+			productName = REDDiagonalTableViewController;
+			productReference = FD447F921A33682E00EF51DA /* REDDiagonalTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD447FAA1A33682E00EF51DA /* REDDiagonalTableViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD447FB81A33682E00EF51DA /* Build configuration list for PBXNativeTarget "REDDiagonalTableViewControllerTests" */;
+			buildPhases = (
+				FD447FA71A33682E00EF51DA /* Sources */,
+				FD447FA81A33682E00EF51DA /* Frameworks */,
+				FD447FA91A33682E00EF51DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD447FAD1A33682E00EF51DA /* PBXTargetDependency */,
+			);
+			name = REDDiagonalTableViewControllerTests;
+			productName = REDDiagonalTableViewControllerTests;
+			productReference = FD447FAB1A33682E00EF51DA /* REDDiagonalTableViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD447F8A1A33682E00EF51DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RED;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "WillowTree Apps";
+				TargetAttributes = {
+					FD447F911A33682E00EF51DA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FD447FAA1A33682E00EF51DA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FD447F911A33682E00EF51DA;
+					};
+				};
+			};
+			buildConfigurationList = FD447F8D1A33682E00EF51DA /* Build configuration list for PBXProject "REDDiagonalTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD447F891A33682E00EF51DA;
+			productRefGroup = FD447F931A33682E00EF51DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD447F911A33682E00EF51DA /* REDDiagonalTableViewController */,
+				FD447FAA1A33682E00EF51DA /* REDDiagonalTableViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD447F901A33682E00EF51DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD447FA11A33682E00EF51DA /* Main.storyboard in Resources */,
+				FD447FA61A33682E00EF51DA /* LaunchScreen.xib in Resources */,
+				FD447FC71A337E5A00EF51DA /* REDTableHeaderView.xib in Resources */,
+				FD447FA31A33682E00EF51DA /* Images.xcassets in Resources */,
+				FD447FBF1A336B6400EF51DA /* REDTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD447FA91A33682E00EF51DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD447F8E1A33682E00EF51DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD447FBE1A336B6400EF51DA /* REDTableViewCell.m in Sources */,
+				FD7E32E81A37CC2B006D401F /* REDLaunchViewController.m in Sources */,
+				FD447FC51A337E4E00EF51DA /* REDTableHeaderView.m in Sources */,
+				FD447FC21A3373E500EF51DA /* REDTableViewController.m in Sources */,
+				FD447F9B1A33682E00EF51DA /* REDAppDelegate.m in Sources */,
+				FD447F981A33682E00EF51DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD447FA71A33682E00EF51DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD447FB21A33682E00EF51DA /* REDDiagonalTableViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD447FAD1A33682E00EF51DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD447F911A33682E00EF51DA /* REDDiagonalTableViewController */;
+			targetProxy = FD447FAC1A33682E00EF51DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD447F9F1A33682E00EF51DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD447FA01A33682E00EF51DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD447FA41A33682E00EF51DA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD447FA51A33682E00EF51DA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD447FB31A33682E00EF51DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD447FB41A33682E00EF51DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD447FB61A33682E00EF51DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = REDDiagonalTableViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD447FB71A33682E00EF51DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = REDDiagonalTableViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD447FB91A33682E00EF51DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = REDDiagonalTableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REDDiagonalTableViewController.app/REDDiagonalTableViewController";
+			};
+			name = Debug;
+		};
+		FD447FBA1A33682E00EF51DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = REDDiagonalTableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REDDiagonalTableViewController.app/REDDiagonalTableViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD447F8D1A33682E00EF51DA /* Build configuration list for PBXProject "REDDiagonalTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD447FB31A33682E00EF51DA /* Debug */,
+				FD447FB41A33682E00EF51DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD447FB51A33682E00EF51DA /* Build configuration list for PBXNativeTarget "REDDiagonalTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD447FB61A33682E00EF51DA /* Debug */,
+				FD447FB71A33682E00EF51DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD447FB81A33682E00EF51DA /* Build configuration list for PBXNativeTarget "REDDiagonalTableViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD447FB91A33682E00EF51DA /* Debug */,
+				FD447FBA1A33682E00EF51DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD447F8A1A33682E00EF51DA /* Project object */;
+}
