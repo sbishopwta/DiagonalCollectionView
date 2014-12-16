@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIView *headerView;
 @property (weak, nonatomic) IBOutlet UIButton *circleButton;
+@property (weak, nonatomic) IBOutlet UIView *contentContainerView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomTableViewConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *trailingTableViewConstraint;
 @property (nonatomic, readwrite) CGFloat viewRotation;
@@ -46,11 +47,11 @@
 
 - (void)transformViews
 {
-    self.tableView.transform = CGAffineTransformMakeRotation(self.viewRotation);
+    self.contentContainerView.transform = CGAffineTransformMakeRotation(self.viewRotation);
     self.tableView.clipsToBounds = NO;
-    self.tableView.layer.borderColor = [[UIColor greenColor] CGColor];
-    self.tableView.layer.borderWidth = 2.0f;
-    self.headerView.transform = CGAffineTransformMakeRotation(self.viewRotation);
+//    self.tableView.layer.borderColor = [[UIColor greenColor] CGColor];
+//    self.tableView.layer.borderWidth = 2.0f;
+//    self.headerView.transform = CGAffineTransformMakeRotation(self.viewRotation);
     
 }
 
@@ -99,7 +100,7 @@
     CGFloat heightToReturn = CGRectGetHeight(self.sizeCell.frame);
     if (indexPath.row == [[self arrayOfImages] count] -1)
     {
-        heightToReturn = CGRectGetHeight(self.sizeCell.frame) + 100;
+        heightToReturn = CGRectGetHeight(self.sizeCell.frame) + 50;
     }
     return heightToReturn;
 }
